@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Donation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+          <img
+            class="logo"
+            src="https://images.vexels.com/media/users/3/128930/isolated/preview/1d7ceac996e65f025d69e16ec7f73ddf-travel-badge-by-vexels.png"
+            alt=""
+          />
+        </div>
+        <div class="right">
+          <h1>Home</h1>
+          <h1>Our tours</h1>
+          <h1>blog</h1>
+          <h1>contacts</h1>
+        </div>
+      </nav>
+
+  <div class="donation-form">
+    <h2>Donate to Our Charity</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="amount">Donation Amount</label>
+      <input type="number" id="amount" name="amount" min="1" required>
+
+      <label for="message">Message (optional)</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Donate Now</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    
+    align-content: space-between;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    background-image: url(https://media.istockphoto.com/id/941788480/photo/portrait-of-girl-kid-having-mid-day-meal-in-indian-school.jpg?s=1024x1024&w=is&k=20&c=nApJ7eyZX-uvnGU1wJYt-M8BrcoRMsMnjYgF8BYwAuU=);
+background-size: cover;
+background-position: center;
+  }
+  
+  .donation-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4caf50;
+    text-decoration:underline;
+  }
+  
+  .donation-form label {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .donation-form input,
+  .donation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .donation-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .donation-form button:hover {
+    background-color: #45a049;
+  }
+  .logo{
+    height: 4em;
+    width: 3rem;
+    color: white;
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 10px;
+}
+nav {
+    height: 8%;
+    width: 100%;
+    /* background-color: rgb(87, 136, 179); */
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav .right {
+    display: flex;
+gap: 35px;
+color: white;
+font-size: 12px;
+margin-right: 20px;
+}
+nav .right h1 {
+font-weight: 350;
+transform: trans;
+}
+
+  
